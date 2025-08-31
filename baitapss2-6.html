@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bài tập 6</title>
+    </head>
+    <body>
+        <header>
+            <h1>TRANG WEB BÁN HÀNG</h1>
+            <nav>
+                <ul>
+                    <li><a href="./trangchu.html">Trang chủ</a></li>
+                    <li><a href="./sanpham.html">Sản phẩm</a></li>
+                    <li><a href="./gioithieu.html">Giới thiệu</a></li>
+                    <li><a href="./lienhe.html">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>THÔNG TIN SẢN PHẨM</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Tên sản phẩm</th>
+                        <th>Mô tả</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sản phẩm 1</td>
+                        <td>Mô tả sản phẩm 1</td>
+                        <td>100.000đ</td>
+                        <td>10</td>
+                    </tr>
+                     <tr>
+                        <td>Sản phẩm 2</td>
+                        <td>Mô tả sản phẩm 2</td>
+                        <td>200.000đ</td>
+                        <td>5</td>
+                    </tr>
+                     <tr>
+                        <td>Sản phẩm 3</td>
+                        <td>Mô tả sản phẩm 3</td>
+                        <td>300.000đ</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>"
+
+        </section>
+        <section>
+            <h2>THÔNG TIN NGƯỜI DÙNG</h2>
+            <form action="http:///www.example.com" method="POST">
+                <label for="hovaten">Họ và tên:</label>
+                <input placeholder="Nguyễn Văn A" id="hovaten" type="text" name="hovaten">
+                <br/>
+                <label for="email">Email:</label>
+                <input placeholder="nguyenvana@gmail.com" id="emali" type="email" name="email">
+                <br/>
+                <label for="sodienthoai">Số điện thoại:</label>
+                <input placeholder="123-45-678" id="sodienthoai" type="tel" name="sodienthoai" patten="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <br/>
+                <label for="diachi">Địa chỉ:</label>
+                <input placeholder="Tỉnh,Thành Phố" id="diachi" type="text" name="diachi">
+                <br/>
+                <button>Đặt hàng</button>
+        </section>
+        <footer>
+            <p>&copy; 2023 Trang web bán hàng</p>
+        </footer>
+    </body>
+</html>
