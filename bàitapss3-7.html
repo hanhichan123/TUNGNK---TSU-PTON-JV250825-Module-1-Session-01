@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luyện tập 7</title>
+        <style>
+            .form-box{
+                border: 2px solid lightblue;
+                background-color:aliceblue;
+                width: 400px;
+                padding: 15px;
+
+            }
+            .form-title{
+                background-color:orangered;
+                color:white;
+                text-align:center;
+                font-weight: bold;
+                padding:8px;
+                margin: -15px -15px 15px -15px;
+            }
+            .form-group{
+                margin: 10px 0;
+            }
+            lable{
+                margin-right: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form-box">
+        <div class="form-title">SỞ THÍCH CỦA BẠN</div>
+        <form action="http://www.example.com" method="POST">
+            <div class="form-group">
+            <label for="hovaten">Họ và tên</label>
+            <input id="hovaten" type="text" name="hovaten">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email">
+            </div>
+            <div class="form-group">
+            <label>Sở thích</label>
+            <input type="checkbox" name="sothich" value="amnhac"/>
+            <label>Âm nhạc</label>
+            <input type="checkbox" name="sothich" value="docsach"/>
+            <label>Đọc sách</label>
+            <input type="checkbox" name="sothich" value="thethao"/>
+            <label>Thể thao</label>
+            </div>
+            <div class="form-group">
+            <input type="checkbox" name="sothich" value="luotweb"/>
+            <label>Lướt web</label>
+            <input type="checkbox" name="sothich" value="choigame"/>
+            <label>Chơi game</label>
+            <input type="checkbox" name="sothich" value="dienanh"/>
+            <label>Điện ảnh</label>
+            </div>
+            <div>
+             <input type="checkbox" name="sothich" value="dulich"/>
+            <label>Du lịch</label>
+            </div>
+            <div class="form-group">
+            <button type="submit">Gửi thông tin</button>
+            <button type="reset">Nhập lại</button>
+            </div>
+        
+        </form>
+        </div>
+    </body>
+</html>
