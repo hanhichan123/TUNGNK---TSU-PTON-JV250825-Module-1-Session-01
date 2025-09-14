@@ -1,0 +1,9 @@
+div {
+    background-color: lightgray;
+    color:aliceblue;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.item1:hover {
+    background-color: darkgray;
+}
