@@ -1,0 +1,13 @@
+article {
+    color: crimson;
+}
+div {
+    background-color: navajowhite;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 5px solid rgb(241, 174, 74);
+    color: black;
+}
+.b-class {
+    color: orange;
+}
