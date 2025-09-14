@@ -1,0 +1,14 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+input {
+    width: 310px;
+}
+button {
+    background-color: green;
+    width:310px;
+    color: white;
+    border-radius: 3px;
+}
