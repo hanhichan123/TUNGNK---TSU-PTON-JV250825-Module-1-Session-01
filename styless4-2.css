@@ -1,0 +1,22 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    background-color: black;
+    color:ghostwhite;
+    padding: 15px;
+
+}
+p {
+      text-align: center;
+      background-color: grey ;
+
+}
+a {
+    text-decoration: none;
+    margin-right: 15px;
+    
+}
