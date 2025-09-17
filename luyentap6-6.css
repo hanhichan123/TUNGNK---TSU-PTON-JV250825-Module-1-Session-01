@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container1 .star {
+    font-size: 20px;
+    padding:20px;
+    border-left: 10px solid rgb(241, 174, 74);
+}
+ .container1 {
+    padding : 20px;
+}
+.container2 .beauty {
+    font-size: 20px;
+    padding:20px;
+    border-left: 10px solid rgb(241, 174, 74);
+}
+.container2 .beauty-img {
+    width: 315px;
+    height: 420px;
+    position:relative;
+}
+.container2 .conment {
+    width: 255px;
+    height:120px;
+    color : rgb(219, 70, 70);
+    font-family: Courier New;
+    font-size: 20px;
+    text-align: left;
+    position:absolute;
+    bottom: 65px;
+
+
+}
+.container3 {
+    width: 900px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color:rgb(217, 209, 209);
+    position:relative;
+}
+.container3-div {
+    position:absolute;
+    right:0;
+    top:0;
+}
+.container3-div div {
+    font-weight: bold;
+}
