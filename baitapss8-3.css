@@ -1,0 +1,23 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.child {
+    width: calc(50% - 10px);
+    background-color:black;
+    color: white;
+    line-height: 100px;
+    padding:20px;
+}
+@media screen and (max-width: 748px) {
+    .child {
+        width:  100%;
+    }
+    
+}
