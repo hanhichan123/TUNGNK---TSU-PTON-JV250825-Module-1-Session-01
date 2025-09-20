@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+    gap:10px;
+}
+.child {
+    width: calc(25% - 10px);
+    border: 1px solid rgb(238, 215, 215);
+    background-color: rgb(243, 130, 104);
+    color:aliceblue;
+    text-align: center;
+    line-height: 100px;
+}
+@media screen and (max-width:1024px){
+    .child {
+        width: calc(50% - 10px);
+    }
+}
+@media screen and (max-width:748px){
+    .child {
+        width: calc(100% - 10px);
+    }
+}
