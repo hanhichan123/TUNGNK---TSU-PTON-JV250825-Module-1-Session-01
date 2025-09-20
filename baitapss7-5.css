@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+    .container {
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    
+}
+.container-big {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    
+}
+.container-big .child1 {
+    width: 360px;
+    height: 100px;
+    border: 1px solid rgb(223, 221, 221);
+    background-color: rgb(73, 75, 75);
+    color:aliceblue;
+   text-align: center;
+   padding: 10px;
+    
+}
+.container-small{
+    display:grid;
+    grid-template-columns: 140px 140px;
+    gap:10px;
+
+}
+.container-small .child {
+    
+    border: 1px solid rgb(223, 221, 221);
+    background-color: rgb(73, 75, 75);
+    color:aliceblue;
+   text-align: center;
+   padding: 10px;
+}
