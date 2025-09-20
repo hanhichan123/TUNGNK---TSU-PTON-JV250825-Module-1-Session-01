@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header-container {
+    height: 50px;
+    background-color: aqua;
+    color: white; 
+    padding:15px;
+}
+
+.section-container {
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    margin: 10px 0;
+}
+.section-container .section-child{
+    height: 500px;
+    border: 1px solid rgb(250, 244, 244)
+    
+    
+}
+.section-container .section-child:nth-of-type(1){
+    width: 300px;
+    background-color: rgb(53, 102, 4);
+    color: white;
+    padding: 10px;
+}
+.section-container .section-child:nth-of-type(2){
+    width: 100%;
+    background-color: rgb(184, 59, 17);
+    color: white;
+    padding: 10px;
+}   
+
+.footer-container {
+    height:50px;
+    background-color: rgb(178, 135, 218);
+    color: white;
+    padding: 10px;
+    
+    
+}
